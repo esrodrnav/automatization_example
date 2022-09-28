@@ -20,7 +20,7 @@ public class BusquedaFotogramaTestTest {
 	
   @BeforeMethod
   public void setUp() {
-	  System.setProperty("webdriver.chrome.driver", "C:\\temp\\chromedriver\\chromedriver.exe");
+	  System.setProperty("webdriver.chrome.driver", "/var/lib/jenkins/tools/chromedriver/chromedriver");
 	  ChromeOptions options = new ChromeOptions();
 	  options.addArguments("--headless", "--window-size=1920,1200");
 	  driver = new ChromeDriver(options);
